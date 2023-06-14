@@ -1,0 +1,62 @@
+.lInput {
+    background-color: #ffffff;
+    font-size: 1rem;
+    border: 1px solid #046900;
+    margin-top: 0.5rem;
+    padding: 0.7rem 1rem;
+}
+
+input,
+select,
+textarea,
+button {
+    border-radius: 0.3rem;
+    /* border: 0.1rem #a4a4a4 solid; */
+    /* font-size: 1.6rem; */
+    /* font-family: Poppins; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.lButton {
+    margin-top: 4rem;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.7rem 8rem;
+    border: none;
+    background-color: #01490d;
+    align-self: center;
+    cursor: pointer;
+}
+
+.lButton:disabled {
+    cursor: not-allowed;
+    background-color: #333333;
+}
+
+.error {
+    text-align: center;
+    margin-top: 1rem;
+    color: #ff0505;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.login {
+    max-width: 25rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.login h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.lcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
